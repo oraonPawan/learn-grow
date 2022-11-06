@@ -1,0 +1,11 @@
+public:
+	void printTriangle(int n) {
+	    // code here
+	    if(n==0) return;
+	    for(int i=1;i<=n;i++){
+	        cout<<i<<" ";
+	    }
+	    cout<<endl;
+	    printTriangle(n-1);
+	}
+};
