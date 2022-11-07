@@ -1,0 +1,13 @@
+  public:
+    void printTriangle(int n) {
+        // code here
+        int a=65;
+        for(int i=0;i<n;i++){
+            a=65;
+            for(int j=0;j<=i;j++){
+                cout<<char(a++);
+            }
+            cout<<endl;
+        }
+    }
+};
